@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/output.css" />
+    <title>
+      Frontend Mentor | Newsletter sign-up form with success message
+    </title>
+  </head>
+  <body
+    class="text-[16px] flex justify-center items-center h-screen bg-slate-800"
+  >
+    <div
+      class="container flex justify-center items-center w-[620px] h-[400px] bg-white text-[14px] p-[20px] rounded-[10px]"
+    >
+      <div class="content-1 w-[50%]h-[400px] p[20px]">
+        <h1 class="text-slate-900 font-bold text-[45px] mb-[15px]">
+          Stay updated!
+        </h1>
+        <p class="mb-[15px]">
+          Join 60,000+ product managers receiving monthly updates on:
+        </p>
+        <div class="list-container flex gap-[20px]">
+          <ul>
+            <li class="mb-[10px]">
+              <img
+                class="w-[20px]"
+                src="./src/assets/images/icon-list.svg"
+                alt="icon-list"
+              />
+            </li>
+            <li class="mb-[10px]">
+              <img
+                class="w-[20px]"
+                src="./src/assets/images/icon-list.svg"
+                alt="icon-list"
+              />
+            </li>
+            <li class="mb-[10px]">
+              <img
+                class="w-[20px]"
+                src="./src/assets/images/icon-list.svg"
+                alt="icon-list"
+              />
+            </li>
+          </ul>
+          <ul>
+            <li class="mb-[10px]">
+              Product discovery and building what matters
+            </li>
+            <li class="mb-[8px]">Measuring to ensure updates are a success</li>
+            <li>And much more!</li>
+          </ul>
+        </div>
+        <form>
+          <label class="font-semibold mb-[10px]" for="email"
+            >Email address</label
+          ><br />
+          <input
+            class="w-[90%] h-[40px] p-[10px] rounded-[5px] mb-[10px] border-[2px]"
+            type="text"
+            id="email"
+            placeholder="email@company.com"
+          />
+          <input
+            class="bg-slate-900 text-white font-semibold w-[90%] h-[30px] text-center text-[14px] rounded-[5px] active:bg-gradient-to-r from-pink-600 via-orange-500 to-orange-500"
+            type="submit"
+            value=" Subscribe to monthly newsletter"
+          />
+        </form>
+      </div>
+      <div class="content-2 w-[50%] h-[400px] flex justify-center items-center">
+        <img
+          class="lg:w-[100%] lg:h-[370px]"
+          src="./src/assets/images/illustration-sign-up-desktop.svg"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
+</html>
